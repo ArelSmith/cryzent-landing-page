@@ -12,6 +12,9 @@
 
     <!-- Style -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Animate On Scroll CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!-- Navbar -->
@@ -31,7 +34,43 @@
         </div>
       </nav>
     <!-- Navbar End -->
+    <!-- Jumbotron -->
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold" data-aos="fade-left">Lorem Ipsum</h1>
+            <p class="col-md-8 fs-4" data-aos="fade-left" data-aos-delay="100">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae iure unde nisi minus ratione tempora incidunt soluta accusamus nobis voluptas. Vel amet velit tempore facilis architecto excepturi corporis quia accusamus laudantium sed soluta itaque eum, quam iure, placeat qui nam!</p>
+        </div>
+    </div>
+    <!-- Jumbotron End -->
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md">
+                    <h1 class="display-4">About</h1>
+                </div>
+            </div>
+
+            <div class="row text-center justify-content-center pt-5">
+                <div class="col-md">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis autem vero rem hic quasi necessitatibus eveniet, cupiditate delectus, porro dolor vitae. Quis voluptatem modi animi iusto rem! Ullam blanditiis inventore rerum alias quo quae praesentium sint voluptatum ut. Ullam voluptate repellat consequuntur quasi error pariatur suscipit officiis adipisci dolore vitae.</p>
+                </div>
+                <div class="col-md">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem ab labore, optio repudiandae enim magnam doloremque corrupti at atque nisi assumenda, laboriosam quos similique? Tenetur nisi qui porro velit facere! Facere dolorem unde labore obcaecati dolor iusto, magni at enim quisquam facilis error iure illo voluptate voluptas repellat similique aut.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
     <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          once: true,
+      });
+    </script>
+  
 </body>
 </html>
