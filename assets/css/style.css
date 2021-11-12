@@ -25,3 +25,9 @@ body {
     padding-top: 12rem;
     margin-bottom: -48px;
 }
+
+div.loading-panel {
+    position: absolute;
+    background-color: black;
+    top: 20px;
+}
