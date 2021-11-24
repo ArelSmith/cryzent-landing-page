@@ -1,2 +1,2 @@
 # Landing Page
-Repo untuk landing page buatan saya
+Repo untuk landing page
